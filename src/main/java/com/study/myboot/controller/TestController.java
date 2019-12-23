@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @RequestMapping("test1")
     public String test(){
-        return "hello world from myboot";
+        String str = "hello world from myboot";
+        str += " update by devtools2";
+        return str;
     }
 }
