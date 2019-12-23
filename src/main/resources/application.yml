@@ -3,8 +3,14 @@ server:
 spring:
   application:
     name: myboot
+  redis:
+    host: 192.168.32.128
+    port: 6379
+    password: 123456
   devtools:
     restart:
       enabled: true
       additional-paths: src/main/java
       exclude: WEB-INF/**
+  session:
+    store-type: redis
