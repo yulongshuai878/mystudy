@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
  * @author: ShiYulong
  * @create: 2019-12-27 13:41
  **/
-@Component
+//@Component
 public class JerseyConfig extends ResourceConfig {
 
     public JerseyConfig() {
