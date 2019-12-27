@@ -42,4 +42,11 @@ public class TestController {
     public String test3(){
         return authorTest.toString();
     }
+    @RequestMapping("test4")
+    public UserBean get(){
+        UserBean userBean = new UserBean();
+        userBean.setName("ylstone");
+        userBean.setAge(30);
+        return userBean;
+    }
 }
