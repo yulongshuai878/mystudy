@@ -1,4 +1,4 @@
-package com.study.myboot.beans;
+package com.study.myboot.propertySource;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

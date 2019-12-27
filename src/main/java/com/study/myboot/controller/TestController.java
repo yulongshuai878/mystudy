@@ -1,9 +1,8 @@
 package com.study.myboot.controller;
 
-import com.study.myboot.beans.AuthorBean;
-import com.study.myboot.beans.AuthorTest;
+import com.study.myboot.propertySource.AuthorBean;
+import com.study.myboot.propertySource.AuthorTest;
 import com.study.myboot.beans.UserBean;
-import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
